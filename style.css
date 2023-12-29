@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Open+Sans&display=swap');
+html,body{
+  font-family:"Open Sans", sans-serif;
+  padding:0;
+  margin:0;
+}
+.header{
+  background:url("background.png");
+  padding:10px;
+  color:#ff5756;
+  font-size:30px;
+}
