@@ -12,6 +12,9 @@ html,body{
   color:#f28282;
   font-size:30px;
 }
+.body{
+  text-align:center;
+}
 
 .gameLAGlink{
 background:url("https://jellofile.github.io/background.png");
