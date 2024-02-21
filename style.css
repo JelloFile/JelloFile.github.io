@@ -24,6 +24,16 @@ background:url("https://jellofile.github.io/background.png");
 padding:20px;
   color:#f28282;
 }
+.box{
+background:url("https://jellofile.github.io/background.png");
+  width:400px;
+  height:300px;
+  text-align:center;
+  border-radius:10px;
+  transition:ease-in-out, 1s;
+padding:20px;
+  color:#f28282;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 
