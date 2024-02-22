@@ -18,8 +18,8 @@ html,body{
 
 .gameLAGlink{
 background:url("https://jellofile.github.io/background.png");
-  width:400px;
-  height:300px;
+  width:200px;
+  height:100px;
   text-align:center;
   border-radius:10px;
   transition:ease-in-out, 1s;
