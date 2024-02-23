@@ -17,7 +17,9 @@ html,body{
 }
 
 .gameLAGlink{
-background:url("https://jellofile.github.io/background.png");
+background:#2c2f33;
+  color:white;
+  font-family:"Montserrat", sans-serif
   width:200px;
   height:100px;
   text-align:center;
@@ -41,8 +43,4 @@ padding:20px;
 
 .gameLAGlink:hover{
   cursor:pointer;
-  transition:1s;
-background:#2c2f33;
-  color:white;
-  font-family:"Montserrat", sans-serif
 }
