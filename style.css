@@ -26,7 +26,7 @@ background:#2c2f33;
   border-radius:10px;
   transition:ease-in-out, 1s;
 padding:20px;
-  color:#f28282;
+
 }
 .box{
 background:url("https://jellofile.github.io/background.png");
@@ -53,7 +53,7 @@ background:black;
   
 }
 #mathcompass:hover{
-color:red;
+  color:#f28282;
   cursor:pointer;
 }
 #passwordmeme:hover{
