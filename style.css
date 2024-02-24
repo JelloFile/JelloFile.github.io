@@ -45,6 +45,13 @@ background:white;
   font-weight:900
   
 }
+#mathcompass{
+background:black;
+  font-family:monospace;
+  color:#149414;
+
+  
+}
 #passwordmeme:hover{
 cursor:pointer;
   color:red
