@@ -52,6 +52,10 @@ background:black;
 
   
 }
+#mathcompass:hover{
+color:red;
+  cursor:pointer;
+}
 #passwordmeme:hover{
 cursor:pointer;
   color:red
