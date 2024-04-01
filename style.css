@@ -6,6 +6,13 @@ html,body{
   background:#f28282;
   color:#ff3131
 }
+.infCraft{
+background:white;
+  
+}
+.infCraft:hover{
+color:black;
+}
 .header{
   background:url("https://jellofile.github.io/assets/background.png");
   padding:10px;
