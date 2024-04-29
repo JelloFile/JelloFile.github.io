@@ -1,4 +1,9 @@
+
+
+/*Import Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+/*Section 0: Global Scope*/
 html,body{
   font-family:"Open Sans", sans-serif;
   padding:0;
@@ -6,7 +11,44 @@ html,body{
   background:#f28282;
   color:#ff3131
 }
+
+.header{
+  background:url("https://jellofile.github.io/assets/background.png");
+  padding:10px;
+  color:#f28282;
+  font-size:30px;
+}
+.body{
+  text-align:center;
+}
+/*Section 1: Projects.html CSS*/
+.box{
+  /*general flashcard*/
+background:url("https://jellofile.github.io/assets/background.png");
+  width:200px;
+  height:613.88px;
+  text-align:center;
+  border-radius:10px;
+  transition:ease-in-out, 1s;
+padding:20px;
+  color:#f28282;
+} 
+#passwordmeme{
+      /* Password Meme Flashcard */
+background:white;
+  font-family:sans-serif;
+  color:black;
+  font-weight:900
+  
+}
+#passwordmeme:hover{
+     /* Password Meme Flashcard */
+cursor:pointer;
+  color:red
+}
+
 .infCraft{
+  /* Infinite Craft Flashcard */
 background:white;
   width:200px;
   height:100px;
@@ -17,19 +59,11 @@ padding:20px;
   
 }
 .infCraft:hover{
+    /* Infinite Craft Flashcard */
 color:black;
 }
-.header{
-  background:url("https://jellofile.github.io/assets/background.png");
-  padding:10px;
-  color:#f28282;
-  font-size:30px;
-}
-.body{
-  text-align:center;
-}
-
 .gameLAGlink{
+    /* LAG + RUSREV Flashcard */
 background:#2c2f33;
   color:white;
   font-family:"Montserrat", sans-serif;
@@ -41,7 +75,27 @@ background:#2c2f33;
 padding:20px;
 
 }
+.gameLAGlink:hover{
+      /* LAG + RUSREV Flashcard */
+  cursor:pointer;
+  color:#f28282;
+}
+#mathcompass{
+     /* MathCompass Flashcard */
+background:black;
+  font-family:monospace;
+  color:#149414;
+
+  
+}
+#mathcompass:hover{
+      /* MathCompass Flashcard */
+  color:red;
+  cursor:pointer;
+}
+
 #vietnamai{
+      /* VietnamAI Flashcard */
 background:red;
   color:yellow;
   font-family:"Montserrat", sans-serif;
@@ -51,44 +105,15 @@ background:red;
   border-radius:10px;
   transition:ease-in-out, 1s;
 padding:20px;
-
+cursor:pointer
 }
-.box{
-background:url("https://jellofile.github.io/assets/background.png");
-  width:200px;
-  height:613.88px;
-  text-align:center;
-  border-radius:10px;
-  transition:ease-in-out, 1s;
-padding:20px;
-  color:#f28282;
-}
-#passwordmeme{
-background:white;
-  font-family:sans-serif;
-  color:black;
-  font-weight:900
-  
-}
-#mathcompass{
-background:black;
-  font-family:monospace;
-  color:#149414;
-
-  
-}
-#mathcompass:hover{
-  color:red;
-  cursor:pointer;
-}
-#passwordmeme:hover{
-cursor:pointer;
-  color:red
+#vietnamai:hover{
+        /* VietnamAI Flashcard */
+color:white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 
-.gameLAGlink:hover{
-  cursor:pointer;
-  color:#f28282;
-}
+
+
+
+
